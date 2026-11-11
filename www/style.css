@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #100b19;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 75px;
+  background: #191123;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  border-bottom: 1px solid #38234f;
+}
+
+.logo {
+  background: #8b35d5;
+  width: 43px;
+  height: 43px;
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 17px;
+}
+
+header span {
+  font-size: 9px;
+  color: #ae87d2;
+}
+
+.status {
+  margin-left: auto;
+  font-size: 10px;
+  color: #4de69b;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 28vh;
+}
+
+.brain {
+  font-size: 55px;
+  color: #bd73ff;
+  margin-bottom: 15px;
+}
+
+.welcome h1 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  color: #a99cb6;
+  margin: 6px;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  padding: 13px;
+  background: #191123;
+  border-top: 1px solid #38234f;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  background: #291b38;
+  color: white;
+  border: 1px solid #593875;
+  border-radius: 13px;
+  padding: 14px;
+  outline: none;
+}
+
+button {
+  width: 48px;
+  border: none;
+  border-radius: 13px;
+  background: #913de0;
+  color: white;
+  font-size: 22px;
+}
+
+.message {
+  padding: 13px;
+  margin: 12px 0;
+  border-radius: 13px;
+  max-width: 85%;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.user {
+  background: #7130a8;
+  margin-left: auto;
+}
+
+.ai {
+  background: #291b38;
+  border: 1px solid #49305d;
+  margin-right: auto;
+}
