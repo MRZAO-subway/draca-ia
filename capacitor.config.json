@@ -1,0 +1,9 @@
+
+{
+  "appId": "com.draca.ai",
+  "appName": "D'RAÇA AI",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
